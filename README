@@ -1,8 +1,6 @@
 # Teammy Library (t3ammy)
 
-สวัสดีจร้าาาา ทีมมี่เอง ไลบรารี่นี้ใช้สำหรับฝึกวิชาสร้างไลบรารี่เป็นของตัวเอง จากวิชาที่ลุงวิศวกรถ่ายทอดมาให้ 
-
-ความสามารถคือ
+สวัสดีจร้าาาา นี่ลุงวิศวกรเอง ไลบรารี่นี้ใช้สำหรับฝึกสร้างไลบรารี่เป็นของตัวเอง ความสามารถคือ
 
   - แสดงชื่อทีมมี่ภาษาอังกฤษ 
   - แสดงชื่อทีมมี่ภาษาไทย
@@ -70,28 +68,13 @@ pip install t3ammy
 - เปิด Python แล้วพิพม์ตามนี้เลย
 
 ```sh
-from teammy import Teammy
+from loongpom import Loongpom
 
-    myName = Teammy()
-    print(help(myName.WhoIAM))
-    print('-------------')
-
-    print(myName) # __str__ work when call variable
-    print('-------------')
-
-    print(myName.name)
-    print(myName.lastname)
-    print(myName.nickname)
-    print('-------------')
-    
-    myName.thainame()
-    print('-------------')
-
-    myName.WhoIAM()
-    print('-------------')
-
-    print(myName.email) # is Property not use ()
-    print('-------------')
+myloong = Loongpom()
+print(myloong.name)
+print(myloong.lastname)
+myloong.WhoIAm()
+print(myloong.thainame)
 ```
 
 ### Visit
