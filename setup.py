@@ -8,14 +8,14 @@ import os.path
 setup(
   name = 'teammy',         # How you named your package folder (MyLib)
   packages = ['teammy'],   # Chose the same as "name"
-  version = '0.0.3',      # Start with a small number and increase it with every change you make
+  version = '0.0.4',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'ฝึกวิชาจากอาจารย์ลุงวิศวกร',   # Give a short description about your library
-  long_description='plese read in: TBC',
+  long_description='plese read in: https://github.com/t3ammy/teammy',
   author = 'T3ammy Engineer',                   # Type in your name
-  author_email = 'teammy@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/UncleEngineer/loongpom',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/UncleEngineer/loongpom/archive/0.0.1.zip',    # I explain this later on
+  author_email = 't3ammydev@gmail.com',      # Type in your E-Mail
+  url = 'https://github.com/t3ammy/teammy',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/t3ammy/teammy/archive/0.0.3.zip',    # I explain this later on
   keywords = ['teammy', 't3ammy', 'engineer'],   # Keywords that define your package best
 
   classifiers=[
