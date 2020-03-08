@@ -15,7 +15,7 @@ setup(
   author = 'T3ammy Engineer',                   # Type in your name
   author_email = 't3ammydev@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/t3ammy/teammy',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/t3ammy/teammy/archive/0.0.3.zip',    # I explain this later on
+  download_url = 'https://github.com/t3ammy/teammy/archive/0.0.4.zip',    # I explain this later on
   keywords = ['teammy', 't3ammy', 'engineer'],   # Keywords that define your package best
 
   classifiers=[
